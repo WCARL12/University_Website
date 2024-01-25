@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div#banner {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
+    url(Uni-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: darken;
+}
+
+ul li {
+  font-size: 20px;
+  display: inline-block;
+  justify-content: space-between;
+  font-family: verdana;
+  font-weight: 600;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-left: 0px;
+  margin-right: 0px;
+  float: right;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+li {
+  border-right: solid 2px white;
+  padding: 0 15px;
+}
+
+ul {
+  max-width: 100%;
+  margin-right: 5px;
+}
+
+div {
+  clear: both;
+}
+a {
+  text-decoration: none;
+  position: relative;
+  color: #bdffb6;
+}
+a:after {
+  content: "";
+  position: absolute;
+  background-color: #e4ffe4;
+  height: 3px;
+  width: 0;
+  left: 0;
+  top: 110%;
+  transition: 0.5s;
+}
+a:hover {
+  color: #eaffda;
+}
+a:hover:after {
+  width: 100%;
+}
+.content {
+  width: 100%;
+  position: absolute;
+  top: 40%;
+  text-align: center;
+  color: white;
+  font-family: "Domine";
+}
+.content p {
+  width: 900px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+}
+.content h1 {
+  font-size: 35px;
+}
+.press {
+  height: 200px;
+  width: 500px;
+  position: absolute;
+  top: 56%;
+  left: 38%;
+}
+.sign.up {
+  width: 130px;
+  height: 60px;
+  border: 8px solid #63ce63;
+  border-radius: 40px;
+  cursor: pointer;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+.sign p {
+  text-align: center;
+  color: #e9ffe4;
+  padding: 4px;
+  font-size: 35px;
+  font-family: Lobster;
+}
+.log {
+  position: relative;
+  width: 130px;
+  height: 55px;
+  border: 8px solid #63ce63;
+  border-radius: 40px;
+  left: 200px;
+  bottom: 77px;
+  text-align: center;
+  padding: 3px;
+  font-family: Lobster;
+  color: white;
+  font-size: 40px;
+  cursor: pointer;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
